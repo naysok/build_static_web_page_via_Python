@@ -1,0 +1,41 @@
+/* default */
+
+:root {
+  --time: 0.2s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Noto Sans Japanese', sans-serif;
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #FFF;
+  color: #333;
+}
+
+h1,
+h2,
+h3,
+p,
+a {
+  line-height: 200%;
+}
+
+a,
+a:link,
+a:visited {
+  padding-right: 5px;
+  padding-left: 5px;
+  color: #333;
+  background-color: #53ff9b;
+}
+
+a:hover {
+  background-color: #53a3ff;
+}
